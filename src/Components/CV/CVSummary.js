@@ -11,7 +11,7 @@ function CVSummary() {
     return (
         <Grid item xs={12} style={{ marginTop: 40 }}>
             <Grid container justify="center" alignItems="center">
-                <Grid item xs={12} lg={2} style={{ height: "100%" }}>
+                <Grid item xs={12} lg={3} style={{ height: "100%" }}>
                     <Card variant="outlined" style={{ marginRight: isDesktop ? 40 : 0 }}>
                         <CardContent>
                             <Grid container direction="column" justify="space-between" spacing={2}>
