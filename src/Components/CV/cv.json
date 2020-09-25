@@ -1,0 +1,13 @@
+{
+    "name": "Ariunbold Batjargal",
+    "education": {
+        "location": "Brandeis University",
+        "major": "B.S. in Computer Science",
+        "date_graduated": "2018"
+    },
+    "work_experience": {
+        "company": "Mobile Heartbeat",
+        "role": "Software Engineer",
+        "date": "Jun 2018 - Present"
+    }
+}
