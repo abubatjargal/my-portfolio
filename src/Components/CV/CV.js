@@ -13,7 +13,7 @@ export default function CV() {
                 file={resumePDF}
                 renderMode="canvas"
                 >
-                    <Page size="A4" pageIndex={0} />
+                    <Page pageIndex={0} />
                     </Document>
             </Grid>
             <Grid item>
