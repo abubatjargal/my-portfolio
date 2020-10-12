@@ -53,48 +53,28 @@ export default function HideAppBar(props) {
         <React.Fragment>
             <CssBaseline />
             <HideOnScroll {...props}>
-                <AppBar color="primary">
+                <AppBar style={{backgroundColor: props.darkMode ? '#424242' : '#eceff1', color: props.darkMode ? 'white' : 'black', opacity: 0.9}} elevation={1}>
                     <Toolbar>
-                        <Grid container direction="row" justify="space-between">
-                            <Grid item>
-                                <Typography variant="h6">Abu's Portfolio</Typography>
-                            </Grid>
-                            <Grid item>
-                                <Grid container direction="row" spacing={3} style={{ marginLeft: 'auto' }} alignItems="center">
+                                <Grid container direction="row" spacing={3} style={{ marginLeft: 'auto' }} justify="flex-end" alignItems="center">
                                     <Grid item>
-                                        <Button color="inherit" variant="outlined">Curriculum Vitae</Button>
+                                        <Button color="inherit" variant="outlined" onClick={props.scrollToCV}>CV</Button>
                                     </Grid>
                                     <Grid item>
-                                        <Button color="inherit" variant="outlined" onClick={handleMenu}>Projects</Button>
+                                        <Button color="inherit" variant="outlined" onClick={props.scrollToProjects}>Projects</Button>
                                     </Grid>
                                     <Grid item>
-                                        <Menu
-                                            id="simple-menu"
-                                            anchorEl={anchorEl}
-                                            keepMounted
-                                            open={Boolean(anchorEl)}
-                                            onClose={handleClose}
-                                        >
-                                            <MenuItem onClick={handleClose}>Undergraduate Projects</MenuItem>
-                                            <MenuItem onClick={handleClose}>Personal Projects</MenuItem>
-                                        </Menu>
-                                        <Grid />
-                                        <Grid item>
-                                            {props.darkMode ?
-                                                (
-                                                    <IconButton onClick={props.toggleDarkMode}>
-                                                        <LightModeIcon />
-                                                    </IconButton>
-                                                ) : (
-                                                    <IconButton onClick={props.toggleDarkMode}>
-                                                        <DarkModeIcon />
-                                                    </IconButton>
-                                                )
-                                            }
-                                        </Grid>
+                                        {props.darkMode ?
+                                            (
+                                                <IconButton onClick={props.toggleDarkMode}>
+                                                    <LightModeIcon />
+                                                </IconButton>
+                                            ) : (
+                                                <IconButton onClick={props.toggleDarkMode}>
+                                                    <DarkModeIcon />
+                                                </IconButton>
+                                            )
+                                        }
                                     </Grid>
-                                </Grid>
-                            </Grid>
                         </Grid>
                     </Toolbar>
                 </AppBar>
