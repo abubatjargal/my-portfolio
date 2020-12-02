@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "90590c5596186654b1ba",
+    "revision": "60e17bc1528195178710",
     "url": "/my-portfolio/static/css/main.f9b14ff2.chunk.css"
   },
   {
-    "revision": "90590c5596186654b1ba",
-    "url": "/my-portfolio/static/js/main.15125a90.chunk.js"
+    "revision": "60e17bc1528195178710",
+    "url": "/my-portfolio/static/js/main.23c42fac.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/EdenPlaybookSummary.a655a8f1.pdf"
   },
   {
-    "revision": "2bb7ca2aa95e3834b515764f540b7235",
+    "revision": "64a8368e89a29d2cabf3c004e5748973",
     "url": "/my-portfolio/index.html"
   }
 ];
