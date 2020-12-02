@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5f849f64b5e4a8fd97af",
+    "revision": "84d6d24f16a0eabb8fef",
     "url": "/my-portfolio/static/css/main.f9b14ff2.chunk.css"
   },
   {
-    "revision": "5f849f64b5e4a8fd97af",
-    "url": "/my-portfolio/static/js/main.2b390ee5.chunk.js"
+    "revision": "84d6d24f16a0eabb8fef",
+    "url": "/my-portfolio/static/js/main.891e95ec.chunk.js"
   },
   {
     "revision": "f2d15970f74596a69ca7",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/js/2.ef3f1f90.chunk.js"
   },
   {
-    "revision": "04d1820aa533634521149957c688561e",
-    "url": "/my-portfolio/static/media/Resume_2020.04d1820a.pdf"
+    "revision": "59f3d5f527be0ac7af80e3da03aded79",
+    "url": "/my-portfolio/static/media/Resume_2020.59f3d5f5.pdf"
   },
   {
     "revision": "a17448661b35742946d92090308dac42",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/EdenPlaybookSummary.a655a8f1.pdf"
   },
   {
-    "revision": "3ec04f248e926938d4762f1f8d4ff1fa",
+    "revision": "ac7c4e9b998a1fa58db1e44cf3176376",
     "url": "/my-portfolio/index.html"
   }
 ];
